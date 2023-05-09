@@ -1,0 +1,8 @@
+#!name = Terabox Premium
+#!author = NgChauAnh06
+#!desc = Plugin hec Terabox ver 3.11.0(Ver app)
+#!icon = https://i.ibb.co/FnNj5yc/IMG-5752.jpg
+[Script]
+http-response ^https:\/\/www\.terabox\.com\/rest\/2.0\/membership\/proxy\/user script-path=https://raw.githubusercontent.com/hungcho99/youtube/main/resTerabox.js, requires-body=true, timeout=10, tag=HungCho99
+[Mitm]
+hostname = *.terabox.com
