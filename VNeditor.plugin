@@ -3,5 +3,6 @@
 #!desc = Plugin hec Editor 9/5/2023
 #!icon = https://i.ibb.co/FnNj5yc/IMG-5752.jpg
 [Script] 
-http-response ^https:\/\/api2\.vlognow\.me\/vn-pay\/api\/v1\/public\/iap\/receipt\/status script-path=https://raw.githubusercontent.com/hungcho99/youtube/main/resVNEditor.js, requires-body=true, timeout=10, enabled=false, tag=VN  Editor[Mitm]
+http-response ^https:\/\/api2\.vlognow\.me\/vn-pay\/api\/v1\/public\/iap\/receipt\/status script-path=https://raw.githubusercontent.com/hungcho99/youtube/main/resVNEditor.js, requires-body=true, timeout=10, enabled=false, tag=VN  Editor
+[Mitm]
 hostname = api2.vlognow.me
